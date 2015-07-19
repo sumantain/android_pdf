@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/content_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hight_size_200"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fadingEdge="none"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/dimen_size_10"
+        android:singleLine="false" >
+    </EditText>
+
+    <Button
+        android:id="@+id/save_send"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_red_light"
+        android:padding="@dimen/dimen_size_6"
+        android:text="Button" />
+
+</LinearLayout>
